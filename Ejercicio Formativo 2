@@ -1,0 +1,49 @@
+EJERCICIO FORMATIVO 2
+¿En qué tabla se creó este trigger? (FALTA LA IMAGEN)
+a. Trg_Prod_eliminado
+b. Producto
+c. Producto_eliminado (MI RESPUESTA INCORRECTA)
+d. INSERT INTO
+Respuesta incorrecta
+Recuerde que en la sintaxis de creación de un trigger, la especificación de la tabla en la cual se creará se define posterior a la instrucción ON.
+La respuesta correcta es: Producto
+
+Pregunta 2
+La siguiente query no está correcta en su sintaxis ¿Cuál es el error en esta query? (FALTA LA IMAGEN)
+a. Sobra la instrucción INSERT
+b. Falta la instrucción FOR EACH ROW
+c. Falta la instrucción UPDATE
+d. Falta la instrucción BEFORE
+Respuesta correcta
+Recuerde que la sintaxis de creación de un trigger en MySQL solicita que posterior a la definición de la tabla en que será creado, se especifique la instrucción FOR EACH ROW.
+La respuesta correcta es: Falta la instrucción FOR EACH ROW
+
+Pregunta 3
+¿Con qué instrucción se gatillará un trigger BEFORE UPDATE?
+a. INSERT INTO <nombre_tabla>
+b. DELETE FROM <nombre_tabla>
+c. CREATE TABLE <nombre_tabla>
+d. UPDATE <nombre_tabla>
+Respuesta correcta
+Recuerde que los triggers BEFORE o AFTER UPDATE se gatillan con la instrucción UPDATE en la tabla en la que se encuentra creado.
+La respuesta correcta es: UPDATE <nombre_tabla>
+
+Pregunta 4
+¿Con qué instrucción se gatillará un trigger BEFORE DELETE?
+a. DELETE FROM <nombre_tabla>
+b. UPDATE <nombre_tabla>
+c. CREATE TABLE <nombre_tabla>
+d. INSERT INTO <nombre_tabla>
+Respuesta correcta
+Recuerde que los triggers BEFORE o AFTER DELETE se gatillan con la instrucción DELETE en la tabla en la que se encuentra creado.
+La respuesta correcta es: DELETE FROM <nombre_tabla>
+
+Pregunta 5
+¿Con qué instrucción se gatillará un trigger AFTER INSERT?
+a. CREATE TABLE <nombre_tabla>
+b. UPDATE <nombre_tabla>
+c. DELETE FROM <nombre_tabla>
+d. INSERT INTO <nombre_tabla>
+Respuesta correcta
+Recuerde que los triggers BEFORE o AFTER INSERT se gatillan con la instrucción DELETE en la tabla en la que se encuentra creado.
+La respuesta correcta es: INSERT INTO <nombre_tabla>

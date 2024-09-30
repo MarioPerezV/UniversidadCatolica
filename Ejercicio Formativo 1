@@ -1,0 +1,52 @@
+EJERCICIO FORMATIVO 1
+Pregunta 1
+¿A qué concepto corresponde la siguiente definición?
+Es una rutina especial que se ejecuta automáticamente cuando surgen eventos DML en las tablas
+a. TRIGGER
+b. Queries
+c. AFTER
+d. Stored Procedures
+Respuesta correcta
+Los triggers son rutinas que se ejecutan automáticamente en las tablas cuando detectan un INSERT, DELETE o UPDATE, según tengan configurado.
+La respuesta correcta es: TRIGGER
+
+Pregunta 2
+¿Con qué sentencias de SQL comienza la eliminación de un trigger?
+a. DROP PROCEDURE
+b. DELETE TRIGGER
+c. DROP TRIGGER
+d. DELETE FROM
+Respuesta correcta
+Las sentencias del lenguaje SQL para eliminar triggers inician con DROP TRIGGER.
+La respuesta correcta es: DROP TRIGGER
+
+Pregunta 3
+Incorrecta
+Si se requiere realizar un trigger que se accione posterior a la inserción de datos en una tabla ¿A qué tipo de trigger correspondería?
+a. BEFORE INSERT
+b. AFTER INSERT (mi respuesta incorrecta)
+c. BEFORE DELETE
+d. AFTER UPDATE
+Respuesta incorrecta.
+Los trigger AFTER ejecutarán la instrucción después del evento detectado, es decir, cuando se realiza la acción que espera el trigger, ya sea INSERT, UPDATE o DELETE. .
+La respuesta correcta es: AFTER UPDATE
+
+Pregunta 4
+¿Con qué sentencias de SQL comienza la creación de un trigger?
+a. CREATE TRIGGER
+b. DELETE FROM
+c. DROP PROCEDURE
+d. NEW TRIGGER
+Respuesta correcta
+Las sentencias del lenguaje SQL para crear triggers inician con CREATE TRIGGER.
+La respuesta correcta es: CREATE TRIGGER
+
+Pregunta 5
+Si se requiere realizar un trigger que se accione antes que la inserción de datos en una tabla ¿A qué tipo de trigger correspondería?
+a. AFTER UPDATE
+b. BEFORE DELETE
+c. AFTER INSERT
+d. BEFORE INSERT
+Respuesta correcta
+Los trigger BEFORE ejecutarán la instrucción antes del evento detectado, es decir, cuando se realiza la acción que espera el trigger, ya sea INSERT, UPDATE o DELETE.
+La respuesta correcta es: BEFORE INSERT
